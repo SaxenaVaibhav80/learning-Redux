@@ -51,7 +51,7 @@ function Intro()
 // Redux is conceptually similar to a combination of useReducer and useContext in React, but it goes beyond that in terms of architecture, tooling, and ecosystem. Let's explore the similarities and differences to understand why Redux is more than just a combination of these two React hooks.
 
 // Similarities
-// State Management: Like useReducer, Redux is centered around the concept of reducers, which are pure functions that take the current state and an action, then return a new state.
+// State Management: Like useReducer, Redux is centered around the concept of reducers, which are pure functions that take the current state and an action, then return a new state basically reducer decides ow the state of the app changes depending upon the action sent by dispatch or store.
 // Shared State Across Components: Like useContext, Redux allows you to share state across different components without prop drilling. Redux uses a central store, while useContext uses context providers.
 
 
