@@ -1,7 +1,8 @@
 import {createStore} from 'redux'
-import BookReducer from './BookReducer'
+import BookReducer from './BookReducershop'
 const store=createStore(BookReducer)
-
+console.log(1)
+console.log(store)
 export default store
 
 
