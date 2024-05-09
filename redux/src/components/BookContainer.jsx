@@ -52,3 +52,12 @@ export default BookContainer
 // When you call dispatch, the action is sent to the Redux store defined in the Provider.
 // The Redux store processes the action through its reducer(s) to determine how the state should change.
 // The store then updates its internal state and notifies any subscribers, including React components that use useSelector or connect.
+
+
+// note--->
+
+// Dispatching Actions: When an action is dispatched to the Redux store (via dispatch), the store triggers the reducer to process the action and update the state accordingly.
+
+// An action is typically a plain object with a type property and optional additional data (payload).
+
+// Reducer Processing: The reducer receives two arguments: the current state and the dispatched action

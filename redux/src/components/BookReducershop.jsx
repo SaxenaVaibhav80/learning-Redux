@@ -19,3 +19,6 @@ function BookReducer(state=TotalInitialBook,action)
 }
 
 export default BookReducer
+
+
+// reducer function will actually use to make a changes provided by the action given by dispatch fuction
