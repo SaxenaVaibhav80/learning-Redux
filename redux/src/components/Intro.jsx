@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 function Intro()
 {
     return(
@@ -12,7 +12,10 @@ function Intro()
          <h3>NOTE-- hooks come after redux</h3>
 
          <h2>NOTE---redux and react are independent , but we can use redux liberary with react</h2>
+
+         <Link to="/BookContainer">go to book container</Link>
         </>
+        
     )
 }
 

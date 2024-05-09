@@ -11,7 +11,7 @@ function BookReducer(state=TotalInitialBook,action)
 {
     switch(action.type){
         
-        case buy_book:return{...state,[number_of_book]:state.number_of_book-1}
+        case buy_book:return{...state,number_of_book:state.number_of_book-1}
         default:return state
     }
     
